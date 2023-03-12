@@ -1,0 +1,2188 @@
+section.featured-games {
+    background-color: #00003E;
+    padding: 170px 0px;
+    padding-bottom: 130px;
+
+}
+
+.featured-texts {
+    padding: 0px 195px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.featured-texts h1 {
+    font-size: 55px;
+}
+
+.featured-texts p {
+    padding-top: 35px;
+    font-weight: 500;
+}
+
+.featured-link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.featured-texts a {
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+    box-shadow: #470ea2 0px 5px;
+}
+.featured-texts a:hover {
+    background-color: #7400d3;
+    box-shadow: #560e92 0px 5px ;
+    transition: 0.4s;
+}
+
+.featured-images {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.featured-images img {
+    width: 18%;
+}
+
+
+section.available-games {
+    background-color: #0D0D48;
+    padding: 100px 195px;
+
+}
+
+.available-texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.available-content h1 {
+    font-size: 50px;
+}
+
+.available-content p {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.avaible-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.avaible-links a {
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+    box-shadow: #470ea2 0px 5px;
+
+}
+
+.avaible-links a:hover {
+    background-color: #7400d3;
+    box-shadow: #560e92 0px 5px ;
+    transition: 0.4s;
+}
+
+.available-images {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px 10px;
+    flex-wrap: wrap;
+}
+
+.available-images img {
+    width: 23%;
+}
+
+
+/* ----LEVEL UP----- */
+
+
+section.level-up {
+    padding: 110px 40px;
+    display: flex;
+    background-color: #00003E;
+    gap: 110px;
+}
+
+.level-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.level-up-text h1 {
+    font-size: 55px;
+    width: 80%;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+
+.level-up-text p {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 50px;
+
+}
+
+
+.gifts {
+    display: flex;
+    gap: 60px;
+}
+
+.gifts .freespins::after {
+    content: "FREESPINS";
+    font-size: 18px;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 540;
+}
+
+.gifts .bonuses::after {
+    content: "BONUSES";
+    font-size: 18px;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 540;
+}
+
+.gifts .tour::after {
+    content: "TOURNAMENTS";
+    font-size: 18px;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 540;
+}
+
+
+
+/*  ---- biggest winners ---- */
+
+section.biggest-winners {
+    background-image: url(../img/todays-winner-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.biggest-left h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    width: 30%;
+    line-height: 1.3;
+}
+
+.sky-blue {
+    color: #00FEDF;
+}
+
+.biggest-left a {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+    box-shadow: #470ea2 0px 5px;
+}
+
+.biggest-left a:hover {
+    background-color: #7400d3;
+    box-shadow: #560e92 0px 5px ;
+    transition: 0.4s;
+}
+
+.biggest-left {
+    padding-left: 100px;
+    width: 25%;
+
+
+}
+
+.biggest-center {
+    align-self: flex-end;
+    padding-top: 80px;
+}
+
+.biggest-right {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.first-column,
+.second-column,
+.third-column {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.table-images-1::after {
+    content: "BESSIE COOPER";
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+
+.table-images-2::after {
+    content: "JEROME BELL";
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 20px;
+
+
+
+}
+
+.table-images-3::after {
+    content: "DARRELL STEWARD";
+    font-weight: 500;
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+
+.table-header {
+    position: relative;
+
+}
+
+.table-header h3 {
+    position: absolute;
+    left: 116px;
+    top: 10px;
+
+}
+
+.level-table {
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #a3eaf6;
+    padding: 15px 13px;
+    border-radius: 7px;
+    box-shadow: #292994 0px 0px 20px, inset #3838aa 0px 0px 30px;
+    overflow: hidden;
+
+}
+
+.top-winner {
+    position: absolute;
+    left: -33px;
+    top: 18px;
+    transform: rotateZ(-45deg);
+
+}
+
+.top-winner p {
+    background-color: #1B5E42;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.same-columns {
+    background-color: #292994;
+
+
+}
+
+.users-backround {
+    background-color: #03D6F9;
+    border-radius: 50%
+}
+
+.eth {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding: 0px 8px;
+    border-radius: 30px;
+    background-color: #160D96;
+    box-shadow: #00003E 0px 5px 10px;
+
+}
+
+.fosfor {
+    color: #00FF6D;
+}
+
+.table-images-1 img {
+    margin-left: 10px;
+}
+
+.table-images-2 img {
+    margin-left: 10px;
+}
+
+.table-images-3 img {
+    margin-left: 10px;
+}
+
+
+
+/* ----FEATURES---- */
+
+
+section.features {
+    background-color: #00003E;
+    padding: 110px 150px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+}
+
+.features-same-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.features-same-content h3 {
+    font-size: 35px;
+}
+
+.features-same-content h5 {
+    font-size: 18px;
+    color: #03D6F9;
+}
+
+
+/* ---LATEST---- */
+
+section.latest-activites {
+
+    background-color: #060649;
+    position: relative;
+    padding-bottom: 220px;
+    overflow: hidden;
+    border-top: 5px solid rgba(7, 3, 61, 0.1);
+
+    
+
+}
+.star-top{
+    position: absolute;
+    top: -40px;
+    left: 190px;
+    z-index: 1;
+    opacity: 0.2;
+    animation:stars 5s infinite;
+
+}
+.star-right{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.2;
+    top: 110px;
+    right: 50px;
+    animation:stars 5s infinite;
+
+}
+.star-left{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.2;
+    bottom: 110px;
+    left: 30px;
+    animation:stars 5s infinite;
+    
+
+}
+
+@keyframes stars {
+    0%   {scale: 1;}
+    50%  {scale: 1.3;}
+    100% {scale: 1;}
+
+}
+
+section.latest-activites::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+
+
+
+    background-image: url(../img/latest-activites.png);
+    content: "";
+    background-size:100% 100%;
+    background-position: center;
+    opacity: 0.2;
+}
+
+
+.latest-content {
+    padding: 55px 195px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-content .texts h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+
+.latest-content .texts p {
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.latest-content .links {
+    align-self: flex-end;
+    background-color: #171789;
+    border-radius: 30px 30px;
+}
+
+.latest-content .links a {
+    display: inline-block;
+    align-self: flex-end;
+    color: #fff;
+    padding: 18px 35px;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+
+}
+
+.latest-content .links .samebackround {
+    background-color: #171789;
+    padding: 18px 18px;
+
+}
+
+
+
+
+
+/*  BIG TABLE */
+
+
+section.big-table{
+    padding: -120px;
+    background-color: #00003E;
+    height: 10%;
+    
+   
+}
+
+.latest-table {
+  position: relative;
+  left: 13%;
+  top: -220px;
+  padding: 35px 25px 0px 25px;
+  display: inline-block;
+  background-image: linear-gradient(to bottom , #1D0D7F ,transparent);
+  border-collapse: collapse;
+  z-index: 1;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+th{
+    padding: 15px 0px;
+    padding-right: 120px;
+    background-color: #252595;
+    font-size: 13px;
+    border: 1px solid #252595;
+    color: #E7EAFF;
+}
+td {
+    padding: 15px 0;
+    padding-right: 100px;
+    padding-left: 20px;
+    background-color: #141461;
+    font-size: 13px;
+    border-bottom: 1px solid #252595;
+}
+
+
+/* commmon */
+
+section.common-questions{
+    background-color: #00003E;
+    padding: 0px 100px;
+    position: relative;
+    top: -120px;
+    padding-bottom: 350px;
+}
+
+.common-header{
+    position: relative;
+    z-index: 6;
+    padding: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.common-header h1{
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.2;
+}
+.common-header h4{
+    font-size: 18.5px;
+    width: 40%;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+    color: #DCE6FF;
+
+}
+
+.common-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px ;
+    gap: 20px;
+}
+
+.common-right{
+    padding-left: 150px;
+    position: relative;
+    z-index: 6;
+
+
+}
+
+.same-buttons {
+    padding: 15px 15px;
+    background-color: #1C1B74;
+    
+    
+}
+.same-buttons button{
+    background-color: #016778;
+    
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    box-sizing: border-box;
+  
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.button-1::before {
+    content: "Can I earn money playing on Gainio?";
+    margin-right: 200px;
+    padding-left: 10px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.img-wrapper{
+position: relative;
+
+}
+
+.circle-1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-color: #1C1B74;
+    border-radius: 50%;
+    top:0;
+    z-index: 4;
+    opacity: 0.8;
+
+}
+.circle-2{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    border-radius: 50%;
+    top:-22%;
+    left:-22%;
+    z-index: 2;
+    background-color:#0C0B56;
+    opacity: 0.8;
+    animation:circles 7s infinite;
+
+
+}
+.circle-3 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-color:#141365;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 2;
+    top:-15%;
+    left:-15%;
+    animation:circles 7s infinite;
+
+}
+
+.circle-4{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    border-radius: 50%;
+    top:-29%;
+    left:-30%;
+    z-index: 1;
+    background-color:#060549;
+    opacity: 0.8;
+    animation:circles 7s infinite;
+
+
+}
+
+@keyframes circles {
+    0%   {scale: 1;}
+    50%  {scale: 1.3;}
+    100% {scale: 1;}
+
+
+}
+
+.img-wrapper img {
+    position: relative;
+    z-index: 5;
+    
+   
+
+}
+
+/*  ----- WANT GAMING ---- */
+
+
+section.want-gaming {
+    background-color: #280B70;
+    height: 0px;
+
+}
+
+.want-gaming-container {
+    display: flex;
+    padding: 17px 10px;
+    padding-bottom: 30%;
+    position: relative;
+    width: 72%;
+    background-color: #310E9E;
+    top: -385px;
+    left: 220px;
+    border-radius: 10px;
+
+}
+
+.left-side{
+    position: relative;
+    
+}
+.front{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+
+}
+.middle{
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    
+    
+}
+.back{
+    position: absolute;
+    top: 70px;
+    
+}
+.want-gaming-container .center {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 3;
+    
+
+}
+.want-gaming-container .center h2 {
+    line-height: 1.4;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.want-gaming-container .center p {
+    margin-bottom: 50px;
+    
+}
+.want-gaming-container .center .inputs {
+    background-color: red;
+    border-radius: 50px;
+    padding: 2px 0px;
+    text-align: left;
+    background-color: #fff;
+    padding-left: 15px;
+    
+
+    
+    
+}
+.want-gaming-container .center .subscribe {
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+    margin-left: 30px;
+}
+
+
+.want-gaming-container .center .email {
+    padding: 15px 15px;
+    padding-right: 150px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+}
+
+
+.want-gaming-container .right-side{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.blue-hover:hover{
+    background-color: #4E01CE;
+}
+
+.purple-hover:hover {
+    background-color: #7400d3;
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 991px) and (min-width: 767px) {
+
+
+    section.featured-games {
+        background-color: #00003E;
+        padding: 120px 0px;
+        padding-bottom: 130px;
+        padding-bottom: 80px;
+    
+    }
+    
+    .featured-texts {
+        padding: 0px 125px;
+    
+    }
+    
+    .featured-texts h1 
+    {
+        font-size: 38px;
+        width: 50%;
+    }
+    
+    .featured-texts p 
+    {
+        padding-top: 25px;
+      
+        font-size: 15px;
+    }
+    
+    .featured-link
+     {
+        padding-bottom: 30px;
+    
+    }
+    
+    .featured-texts a
+     {
+        padding: 14px 15px; 
+        font-size: 14px;
+        
+    }
+    
+    .featured-images {
+        gap: 10px;
+        padding-top: 30px;
+        
+    }
+    .delete-img
+    {
+        display: none;
+    }
+    
+    .featured-images img 
+    {
+        width: 29%;
+    }
+
+
+
+    /* --------------------- */
+    
+    
+    section.available-games
+     {
+        padding: 50px 100px;
+    
+    }
+    
+    .available-texts {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .available-content h1 {
+        font-size: 35px;
+    }
+    
+    .available-content p {
+        font-weight: 500;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    .avaible-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 25px;
+        gap: 10px;
+    }
+    
+    .avaible-links a {
+        padding: 12px 15px; 
+        font-size: 14px;
+    
+    }
+    
+    .available-images {
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px 25px;
+        flex-wrap: wrap;
+    }
+    
+    .available-images img
+     {
+        width: 28%;
+    }
+     /* --------------------------- */
+
+
+
+
+     section.level-up {
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+        
+        background-color: #00003E;
+        gap: 110px;
+    }
+    
+    .level-up-text 
+    {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 60px;
+    }
+    
+    .level-up-text h1 {
+        font-size: 40px;
+        width: 100%;
+   
+    }
+    
+    .level-up-text p
+     {
+        padding-bottom: 30px;
+        font-size: 15px;
+
+    
+    }
+    .gifts {
+        gap: 30px;
+        
+    }
+    
+    .gifts .bonuses::after , .gifts .freespins::after ,.gifts .tour::after 
+    {
+        font-size: 12px; 
+        padding-top: 25px;
+        font-weight: 540;
+    }
+    
+
+   
+
+
+    /*  ---- biggest winners ---- */
+
+section.biggest-winners {
+
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+.biggest-left h1 {
+    font-size: 40px;
+    width: 30%;
+    line-height: 1.15;
+}
+
+
+
+.biggest-left a {
+    font-size: 15px;
+    padding: 12px 15px;
+    
+}
+
+.biggest-left {
+    padding-left: 20px;
+    width: 45%;
+
+}
+
+.biggest-center {
+    align-self: flex-end;
+    padding-right: 40px;
+    padding-top: 0px;
+   
+}
+
+.biggest-right {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+
+ /* ----FEATURES---- */
+
+
+section.features {
+    background-color: #00003E;
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px 150px;
+    align-items: center;
+}
+
+.features-same-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.features-same-content h3 {
+    font-size: 30px;
+}
+
+.features-same-content h5 {
+    font-size: 16px;
+}
+
+/* ---LATEST---- */
+
+section.latest-activites {
+
+    background-color: #060649;
+    position: relative;
+    padding-bottom: 220px;
+    overflow: hidden;
+    border-top: 5px solid rgba(7, 3, 61, 0.1);
+
+    
+
+}
+
+
+
+section.latest-activites::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+
+
+
+    background-image: url(../img/latest-activites.png);
+    content: "";
+    background-size:100% 100%;
+    background-position: center;
+    opacity: 0.2;
+}
+
+
+.latest-content {
+    padding: 55px 195px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-content .texts h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+
+}
+
+.latest-content .texts p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 40px;
+
+}
+
+.latest-content .links {
+    align-self: center;
+    background-color: #171789;
+    border-radius: 30px 30px;
+    
+
+}
+
+.latest-content .links a {
+    display: inline-block;
+    align-self: flex-end;
+    color: #fff;
+    padding: 13px 15px;
+    font-size: 14px;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+
+}
+
+.latest-content .links .samebackround {
+    background-color: #171789;
+    padding: 13px 18px;
+
+}
+
+
+
+
+
+/*  BIG TABLE */
+
+
+section.big-table{
+    padding: -120px;
+    background-color: #00003E;
+    height: 10%;
+    
+   
+}
+
+.latest-table {
+    overflow-x: scroll;
+    width: 85%;
+    height: 440px;
+
+  position: relative;
+  
+  left: 50%;
+  transform: translateX(-50%);
+  top: -220px;
+  padding: 35px 25px 0px 25px;
+  display: inline-block;
+  border-collapse: collapse;
+  z-index: 1;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+th{
+    padding: 15px 30px;
+    padding-right: 150px;
+    background-color: #252595;
+    font-size: 13px;
+    border: 1px solid #252595;
+    color: #E7EAFF;
+}
+td {
+    padding: 15px 0;
+    padding-right: 10px;
+    padding-left: 20px;
+    background-color: #141461;
+    font-size: 13px;
+    border-bottom: 1px solid #252595;
+}
+
+
+/* commmon */
+
+section.common-questions{
+    background-color: #00003E;
+    padding: 0px 0px;
+    position: relative;
+    top: -120px;
+    padding-bottom: 350px;
+}
+
+.common-header{
+    position: relative;
+    z-index: 6;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+.common-header h1{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+}
+.common-header h4{
+    font-size: 15.5px;
+    width: 85%;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+    color: #DCE6FF;
+
+}
+
+.common-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px ;
+    gap: 20px;
+}
+
+.common-right{
+    padding-top: 50px;
+    padding-left: 0px;
+    position: relative;
+    z-index: 6;
+
+
+}
+
+.same-buttons {
+    padding: 15px 15px;
+    background-color: #1C1B74;
+    
+    
+}
+.same-buttons button{
+    background-color: #016778;
+    
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    box-sizing: border-box;
+  
+}
+
+.button-1::before {
+    content: "Can I earn money playing on Gainio?";
+    margin-right: 330px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.img-wrapper{
+position: relative;
+
+}
+
+.circle-2{
+
+    animation:none;
+
+
+}
+.circle-3 {
+  
+    animation:none;
+}
+
+.circle-4{
+ 
+    animation:none;
+
+}
+
+.img-wrapper img {
+    position: relative;
+    z-index: 5;
+    
+   
+
+}
+
+/*  ----- WANT GAMING ---- */
+
+
+section.want-gaming {
+    background-color: #280B70;
+    height: 0px;
+
+}
+
+.want-gaming-container {
+    display: flex;
+    padding: 17px 10px;
+    padding-bottom: 42%;
+    position: relative;
+    width: 85%;
+    background-color: #310E9E;
+    top: -395px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+
+}
+
+.left-side{
+    position: relative;
+    
+}
+.front{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 80px;
+    z-index: 1;
+
+}
+
+
+.middle{
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    width: 240px;
+
+    
+    
+}
+.back{
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    width: 280px;
+
+    
+}
+.want-gaming-container .center {
+    top: -15%;
+    transform: translateY(50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 3;
+    
+
+}
+.want-gaming-container .center h2 {
+    line-height: 1.4;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.want-gaming-container .center p {
+    margin-bottom: 30px;
+    
+}
+.want-gaming-container .center .inputs {
+    background-color: red;
+    border-radius: 50px;
+    padding: 2px 0px;
+    text-align: left;
+    background-color: #fff;
+    padding-left: 15px;
+    
+
+    
+    
+}
+.want-gaming-container .center .subscribe {
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+    margin-left: 10px;
+}
+
+
+.want-gaming-container .center .email {
+    padding: 15px 5px;
+    padding-right: 0px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.want-gaming-container .right-side{
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+   
+
+}
+
+.want-gaming-container .right-side img{
+    
+    width: 250px;
+
+}
+
+
+}
+
+
+@media (max-width: 767px){
+
+
+    section.featured-games {
+        background-color: #00003E;
+        padding: 90px 0px;
+        padding-bottom: 130px;
+        padding-bottom: 80px;
+    
+    }
+    
+    .featured-texts {
+        padding: 0px 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .featured-texts h1 
+    {
+        font-size: 27px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .featured-texts p 
+    {
+        padding-top: 25px;
+        padding-bottom: 25px;
+      
+        font-size: 15px;
+    }
+    
+    .featured-link
+     {
+        padding-bottom: 20px;
+    
+    }
+    
+    .featured-texts a
+     {
+        padding: 14px 15px; 
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+    
+    .featured-images {
+        gap: 10px;
+        padding-top: 30px;
+        
+    }
+    .delete-img
+    {
+        display: none;
+    }
+    
+    .featured-images img 
+    {
+        width: 29%;
+    }
+
+
+
+    /* --------------------- */
+    
+    
+    section.available-games
+     {
+        padding: 50px 50px;
+    
+    }
+    
+    .available-texts {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .available-content h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    .available-content p {
+        font-weight: 500;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .avaible-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 25px;
+        gap: 10px;
+    }
+    
+    .avaible-links a {
+        padding: 12px 15px; 
+        font-size: 14px;
+    
+    }
+    
+    .available-images {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 30px 25px;
+        flex-wrap: wrap;
+    }
+    
+    .available-images img
+     {
+        width: 60%;
+    }
+     /* --------------------------- */
+
+
+
+
+     section.level-up {
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #00003E;
+        gap: 20px;
+    }
+    .level-up-img{
+        
+        text-align: center;
+    }
+    .level-up-img img{
+        width: 95%;
+        padding-bottom: 30px;
+    }
+    .level-up-text 
+    {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    
+    .level-up-text h1 {
+        text-align: center;
+        font-size: 28px;
+        width: 100%;
+   
+    }
+    
+    .level-up-text p
+     {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: 15px;
+
+    
+    }
+    .gifts {
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .gifts img {
+        width: 75%;
+    }
+    
+    .freespins , .bonuses , .tour{
+        text-align: center;
+    }
+    .gifts .bonuses::after , .gifts .freespins::after ,.gifts .tour::after 
+    {
+        font-size: 12px; 
+        padding-top: 25px;
+        font-weight: 540;
+    }
+    
+
+   
+
+
+    /*  ---- biggest winners ---- */
+
+section.biggest-winners {
+
+    flex-wrap: wrap;
+   
+   
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+
+.biggest-left{
+
+    text-align: center;
+    align-self: center;
+
+}
+
+
+
+
+
+.biggest-left h1 {
+    font-size: 28px;
+    width: 100%;
+    line-height: 1.15;
+}
+
+
+
+.biggest-left a {
+    font-size: 13px;
+    padding: 12px 15px;
+    
+}
+
+.biggest-left {
+    padding-left: 0px;
+    width: 100%;
+
+}
+
+.biggest-center {
+    align-self: center;
+    justify-content: center;
+    padding-right: 0px;
+    padding-top: 0px;
+   
+}
+
+.biggest-right {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 150%;
+}
+.first-column,
+.second-column,
+.third-column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 0px;
+}
+.first-column {
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.table-images-1 ,.table-images-2 ,.table-images-3  {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.table-images-1::after {
+    content: "BESSIE COOPER";
+    font-weight: 600;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+
+.table-images-2::after {
+    content: "JEROME BELL";
+    font-weight: 600;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 5px;
+
+
+
+}
+.eth {
+    padding-left: 0px;
+    margin-left: 0px;
+    padding:10px 0px;
+    position: relative;
+    left: 0px;
+    
+    
+}
+
+.eth p {
+    padding-left: 0px;
+    padding: 0px 10px;
+}
+
+
+.table-images-3::after {
+    content: "DARRELL STEWARD";
+    font-weight: 600;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 5px;
+
+}
+
+ /* ----FEATURES---- */
+
+
+section.features {
+    background-color: #00003E;
+    padding: 60px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px 150px;
+    align-items: center;
+}
+
+.features-same-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.features-same-content h3 {
+    font-size: 25px;
+}
+
+
+/* ---LATEST---- */
+
+section.latest-activites {
+
+    background-color: #060649;
+    position: relative;
+    padding-bottom: 220px;
+    overflow: hidden;
+    border-top: 5px solid rgba(7, 3, 61, 0.1);
+
+    
+
+}
+
+
+
+section.latest-activites::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+
+
+
+    background-image: url(../img/latest-activites.png);
+    content: "";
+    background-size:100% 100%;
+    background-position: center;
+    opacity: 0.2;
+}
+
+
+.latest-content {
+    padding: 55px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-content .texts h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+.latest-content .texts p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+
+.latest-content .links {
+    align-self: center;
+    background-color: #171789;
+    border-radius: 30px 30px;
+    
+
+}
+
+.latest-content .links a {
+    display: inline-block;
+    align-self: flex-end;
+    color: #fff;
+    padding: 13px 15px;
+    font-size: 14px;
+    border-radius: 30px 30px;
+    background-color: #4E01CE;
+
+}
+
+.latest-content .links .samebackround {
+    background-color: #171789;
+    padding: 13px 18px;
+
+}
+
+
+/*  BIG TABLE */
+
+
+section.big-table{
+    background-color: #00003E;
+    height: 10%;
+    height: 360px;
+    
+   
+}
+
+.latest-table {
+    overflow-x: scroll;
+    width: 93%;
+    height: 440px;
+
+  position: relative;
+  
+  left: 50%;
+  transform: translateX(-50%);
+  top: -240px;
+  padding: 35px 25px 0px 25px;
+  display: inline-block;
+  border-collapse: collapse;
+  z-index: 1;
+
+}
+
+th{
+    padding: 15px 30px;
+    padding-right: 180px;
+    background-color: #252595;
+    font-size: 13px;
+    border: 1px solid #252595;
+    color: #E7EAFF;
+}
+td {
+    padding: 15px 0;
+    padding-right: 10px;
+    padding-left: 20px;
+    background-color: #141461;
+    font-size: 13px;
+    border-bottom: 1px solid #252595;
+}
+
+
+/* commmon */
+
+section.common-questions{
+    background-color: #00003E;
+    padding: 0px 0px;
+    position: relative;
+    top: -120px;
+    padding-bottom: 270px;
+}
+
+.common-header{
+    position: relative;
+    z-index: 6;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+.common-header h1{
+    font-size: 26px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+}
+.common-header h4{
+    font-size: 15.5px;
+    width: 90%;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.4;
+    color: #DCE6FF;
+
+}
+
+.common-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px ;
+    gap: 20px;
+}
+
+.common-right{
+    padding: 0px 20px;
+    padding-top: 50px;
+    
+    position: relative;
+    z-index: 6;
+
+
+}
+
+.same-buttons {
+    padding: 15px 15px;
+    background-color: #1C1B74;
+    
+    
+}
+.same-buttons button{
+    background-color: #016778;
+    
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    box-sizing: border-box;
+  
+}
+
+.button-1::before {
+    content: "Can I earn money playing on Gainio?";
+    margin-right: 105px;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.buttons{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+.img-wrapper{
+position: relative;
+
+}
+
+.circle-2{
+
+    animation:none;
+
+
+}
+.circle-3 {
+  
+    animation:none;
+}
+
+.circle-4{
+ 
+    animation:none;
+
+}
+
+.img-wrapper img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 5;
+    
+}
+
+.circle-1{
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1C1B74;
+    border-radius: 50%;
+    top:0;
+    z-index: 4;
+    opacity: 0.8;
+
+}
+.circle-2{
+    height: 230px;
+    width: 230px;
+    
+    
+    position: absolute;
+    border-radius: 50%;
+    top:-17%;
+    
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#15137a;
+    opacity: 0.8;
+
+
+}
+.circle-3 {
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    background-color:#0C0B56;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: 2;
+    top:-27%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.circle-4{
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    border-radius: 50%;
+    top:-42%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color:#060549;
+    opacity: 0.8;
+
+
+}
+
+
+/*  ----- WANT GAMING ---- */
+
+
+section.want-gaming {
+    background-color: #280B70;
+    height: 0px;
+
+}
+
+.want-gaming-container {
+    display: flex;
+    padding: 17px 10px;
+    padding-bottom: 50%;
+    position: relative;
+    width: 93%;
+    background-color: #310E9E;
+    top: -370px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+
+}
+
+.left-side{
+    position: relative;
+    
+}
+.front{
+    display: none;
+}
+
+
+.middle{
+    display: none;  
+}
+.back{
+
+    display: none;
+    
+}
+.want-gaming-container .center {
+    top: -25%;
+    transform: translateY(50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 3;
+    
+
+}
+.want-gaming-container .center h2 {
+    line-height: 1.4;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.want-gaming-container .center p {
+    margin-bottom: 30px;
+    font-size: 15px;
+    
+}
+.want-gaming-container .center .inputs {
+    background-color: red;
+    border-radius: 50px;
+    padding: 5px 0px;
+    text-align: left;
+    background-color: #fff;
+    padding-left: 15px;
+    
+
+    
+    
+}
+.want-gaming-container .center .subscribe {
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px 30px;
+    margin-left: 95px;
+}
+
+
+.want-gaming-container .center .email {
+    padding: 15px 5px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.want-gaming-container .right-side{
+ 
+    display: none;
+}
+
+}

@@ -1,0 +1,568 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #280b70;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+nav{
+    background-color: #280B70;
+}
+.hamburger-menu{
+    display: none;
+}
+
+.navbar-container{
+    padding: 30px 0px;
+    margin: 0px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #3d1996 ;
+
+}
+
+.navbar-container ul{
+    list-style: none;
+}
+.navbar-container li {
+    padding: 0px 15px;
+    display: inline-block;
+
+}
+
+.navbar-container ul a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-container ul .green-hover:hover {
+    color: #00FEDF;
+} 
+
+.navbar-container ul .register {
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 30px;
+    background-color: #4E01CE;
+    box-shadow: #470ea2 0px 5px ;
+    margin-right: -30px;
+    margin-left: -25px;
+    margin-top: -5px;
+
+}
+
+.navbar-container ul .register:hover {
+
+    background-color: #7400d3;
+    box-shadow: #560e92 0px 5px ;
+    transition: 0.4s;
+}
+
+
+.navbar-container ul .sing-in , .start-playing {
+    color: #fff;
+    padding: 14px 25px;
+    border-radius: 30px;
+    background-color: #7400d3;
+    box-shadow: #560e92 0px 5px ;
+    margin-top: -5px;
+
+
+}
+
+.start-playing:hover {
+
+    background-color: #4E01CE;
+    box-shadow: #470ea2 0px 5px ;
+    transition: 0.4s;
+}
+
+.navbar-container ul .sing-in:hover {
+    background-color: #4E01CE;
+    box-shadow: #470ea2 0px 5px ;
+    transition: 0.4s;
+}
+ 
+
+
+header {
+    background-image: url("../img/header-background.png");
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: -10px;
+
+}
+.header-texts {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: -10px;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
+    line-height: 1.3;
+}
+.header-texts p {
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.rewards {
+   color:#00FEDF ;
+}
+
+.header-images {
+    position: relative;
+    top: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-images .header-img-center {
+    padding-bottom: 20px;
+    width: 30%;
+}
+.header-images .header-img-left , .header-img-right {
+    width: 17%;
+}
+.litecoin{
+    position: absolute;
+    top: 55%;
+    left: 11%;
+    animation:left-coin-top 5s infinite;
+
+
+}
+@keyframes left-coin-top {
+    0%   {left:11%; top:55%;}
+    30%  {left:12%; top:56%;}
+    100% {left:11%; top:55%;}
+
+
+}
+.bitcoin{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    animation:left-coin-bottom 4s infinite;
+
+}
+
+@keyframes left-coin-bottom {
+    0%   {left:0%; top:80%;}
+    30%  {left:1%; top:81%;}
+    100% {left:0%; top:80%;}
+}
+
+.etherium{
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    animation:right-coin-bottom 4s infinite;
+
+}
+@keyframes right-coin-bottom {
+    0%   {right:0%; top:80%;}
+    30%  {right:1%; top:81%;}
+    100% {right:0%; top:80%;}
+}
+
+
+.coin-3{
+    position: absolute;
+    top: 55%;
+    right: 11%;
+    animation:right-coin-top 4s infinite;
+
+}
+@keyframes right-coin-top {
+    0%   {right:11%; top:55%;}
+    30%  {right:12%; top:56%;}
+    100% {right:11%; top:55%;}
+}
+
+.play-win-earn {
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 195px;
+}
+
+.play-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0D59;
+    padding: 25px 0px;
+    padding-left: 40px;
+    border-radius: 10px;
+
+
+
+}
+
+.play , .win , .earn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.play-container img {
+    width: 80px;
+    height: 80px;
+}
+.play-container .earn {
+    padding-right: -50px;
+}
+.play-container .play-texts {
+    width: 60%;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.play-container .play-texts h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+
+.blue-hover:hover{
+    background-color: #4E01CE;
+}
+
+.purple-hover:hover {
+    background-color: #7400d3;
+
+
+}
+
+@media (max-width: 991px) and (min-width: 767px)
+ {
+    .hamburger-menu{
+        display: block;
+    }
+    .navbar-container ul{
+        display: none;
+    }
+    
+    .navbar-container{
+        padding: 15px 0px;
+        margin: 0px 60px;
+        border-bottom: none ;
+    
+    }
+    nav
+    {
+        background-color: #5C2CC5;
+    }
+
+    header 
+    {
+        background-position: top;
+        background-size: 100%;
+        margin-bottom: -80px;
+        background-repeat: no-repeat;
+    
+    }
+    .header-texts 
+    {
+        padding-top: 95px;
+        margin-bottom: 20px;
+    }
+    
+    header h1
+     {
+        margin-bottom: 10px;
+        font-size: 48px;    
+        width: 40%;
+   
+    }
+    .header-texts p 
+    {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+
+    .start-playing 
+    {
+        padding: 14px 15px; 
+        font-size: 14px;
+     
+    }
+    
+
+    .header-images 
+    {  
+        top:0px;    
+    }
+    .header-images .header-img-center 
+    {
+        padding-bottom: 20px;
+        width: 50%;
+    }
+    .header-images .header-img-left 
+    {
+        position: relative;
+        left: 50px;
+        width: 16%;
+    }
+
+    .header-images .header-img-right
+    
+    {
+        right: 60px;
+        position: relative;
+
+
+    }
+    .litecoin , .bitcoin , .etherium , .coin-3
+    
+    {
+        width: 20%;
+        
+    }
+
+    @keyframes left-coin-top {
+        0%   {left:0%; top:50%;}
+        30%  {left:1%; top:52%;}
+        100% {left:0%; top:50%;}
+    
+    
+    }
+   
+    
+    @keyframes left-coin-bottom {
+        0%   {left:-12%; top:73%;}
+        30%  {left:-10%; top:75%;}
+        100% {left:-12%; top:73%;}
+    }
+
+    @keyframes right-coin-bottom {
+        0%   {right:-12%; top:73%;}
+        30%  {right:-10%; top:75%;}
+        100% {right:-12%; top:73%;}
+    }
+
+    @keyframes right-coin-top {
+        0%   {right:0%; top:50%;}
+        30%  {right:1%; top:52%;}
+        100% {right:0%; top:50%;}
+    }
+    
+    .play-win-earn {
+        position: relative;
+        top: -20px;   
+        display: flex;
+        padding: 0px 0px;
+    }
+    
+    .play-container
+     {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px 60px;
+        padding-left: 40px;
+        padding-right: 120px;
+        gap: 40px;
+       
+    
+    
+    
+    }
+    
+    .play , .win , .earn {
+        gap: 30px;
+    }
+
+    .play-container .play-texts {
+        width: 80%;
+    }
+    
+    .play-container .play-texts h4
+    {
+        font-size: 25px;
+        margin-bottom: 10px;
+    
+    }
+
+    .play-container .play-texts p
+    {
+        font-size: 14px;
+        margin-bottom: 10px;
+    
+    }
+
+}
+    @media (max-width: 767px) {
+
+        .hamburger-menu{
+            display: block;
+        }
+        .navbar-container ul{
+            display: none;
+        }
+        
+        .navbar-container{
+            padding: 15px 0px;
+            margin: 0px 60px;
+            border-bottom: none ;
+        
+        }
+        nav
+        {
+            background-color: #5C2CC5;
+        }
+    
+        header 
+        {
+            background-position: top;
+            background-size: 100%;
+            margin-bottom: -80px;
+            background-repeat: no-repeat;
+        
+        }
+        .header-texts 
+        {
+            padding-top: 55px;
+            margin-bottom: 20px;
+        }
+        
+        header h1
+         {
+            margin-bottom: 5px;
+            font-size: 34px;    
+            width: 50%;
+       
+        }
+        .header-texts p 
+        {
+            font-size: 15px;
+            margin-bottom: 40px;
+        }
+    
+    
+        .start-playing 
+        {
+            padding: 12px 15px; 
+            font-size: 13px;
+         
+        }
+        
+    
+        .header-images 
+        {  
+            top:0px;    
+        }
+        .header-images .header-img-center 
+        {
+            padding-bottom: 20px;
+            width: 70%;
+        }
+        .header-images .header-img-left 
+        {
+            position: relative;
+            left: 50px;
+            width: 18%;
+        }
+    
+        .header-images .header-img-right
+        
+        {
+            right: 60px;
+            position: relative;
+    
+    
+        }
+        .litecoin  , .coin-3
+        
+        {
+            width: 30%;
+            
+        }
+        .bitcoin , .etherium {
+            display: none;
+        }
+    
+        @keyframes left-coin-top {
+            0%   {left:-10%; top:30%;}
+            30%  {left:-9%; top:31%;}
+            100% {left:-10%; top:30%;}
+        
+        
+        }
+
+        @keyframes right-coin-top {
+            0%   {right:-10%; top:30%;}
+            30%  {right:-9%; top:31%;}
+            100% {right:-10%; top:30%;}
+        }
+        
+        .play-win-earn {
+            position: relative;
+            top: -20px;   
+            display: flex;
+            padding: 0px 0px;
+        }
+        
+        .play-container
+         {
+            flex-direction: column;
+            align-items: flex-start;
+           
+            padding-left: 40px;
+            padding-right: 40px;
+            gap: 40px;
+  
+        }
+        
+       
+    
+        .play-container .play-texts {
+            width: 100%;
+        }
+        
+        .play-container .play-texts h4
+        {
+            font-size: 20px;
+            margin-bottom: 10px;
+        
+        }
+    
+        .play-container .play-texts p
+        {
+            font-size: 14px;
+            margin-bottom: 10px;
+        
+        }
+
+
+    }
+    
+
+

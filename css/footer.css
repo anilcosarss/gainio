@@ -1,0 +1,234 @@
+footer {
+    background-color: #280B70;
+    padding: 0px 215px;
+    padding-top: 200px;
+}
+.footer-up{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #663cd0;
+}
+
+.footer-up-center{
+    padding-left: 50px;
+}
+.footer-up-center li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0px 10px;
+    color: #fff;
+}
+.footer-up-center ul li a {
+    color: #fff;
+
+}
+
+.footer-up-center ul li a:hover {
+    color: #00FEDF;
+} 
+
+.footer-up-right li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0px 4px;
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    background-position: center;
+    background-image: url(../img/FOOTER-social-bg.png);
+
+}
+.footer-up-right li:hover {
+    background-color: red;
+
+}
+
+
+.footer-up-right li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    
+
+}
+
+.footer-down {
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-down p {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.pixelasis {
+    color: #00FEDF;
+
+}
+
+.languages {
+    padding: 8px 19px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    border-color: #663cd0;
+}
+
+
+@media (max-width: 991px) and (min-width: 767px) {
+
+    footer {
+        background-color: #280B70;
+        padding: 0px 55px;
+
+        
+    }
+    .footer-up{
+        padding: 5px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 35px;
+        border-bottom: 1px solid #663cd0;
+    }
+    
+    .footer-up-center{
+        padding-left: 50px;
+    }
+    .footer-up-center li {
+        list-style: none;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    
+    .footer-up-right li {
+        list-style: none;
+        display: inline-block;
+        font-weight: 500;
+        padding: 0px 4px;
+        width: 30px;
+        height: 30px;
+        background-size:cover;
+        background-position: center;
+        background-image: url(../img/FOOTER-social-bg.png);
+    
+    }
+    .footer-up-right li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 7px;
+        
+    
+    }
+
+}
+
+@media (max-width: 767px){
+    
+    footer {
+        background-color: #280B70;
+        padding: 0px 20px;
+
+        
+    }
+
+    
+
+    .languages {
+        padding: 6px 13px;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+        font-size: 14px;
+        border-color: #663cd0;
+    }
+    .footer-up-center ul {
+        padding-left: 20px;
+    }
+    .footer-up-center li {
+        list-style: none;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 0px 10px;
+        
+    }
+   
+
+    .footer-up{
+        padding: 5px 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 35px;
+        padding-left: 30px;
+        border-bottom: 1px solid #663cd0;
+    }
+    
+    .footer-up-center{
+        padding-left: 0px;
+    }
+
+    .footer-up-right ul {
+        width: 100%;
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+   
+    .footer-up-right li {
+        list-style: none;
+        display: inline-block;
+        font-weight: 500;
+        padding: 0px 15px;
+        width: 30px;
+        height: 30px;
+        background-size:cover;
+        background-position: center;
+        background-image: url(../img/FOOTER-social-bg.png);
+    
+    }
+    .footer-up-right li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 7px;
+        
+    
+    }
+    
+    .footer-down {
+        padding: 40px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-end;
+    
+    }
+    
+    .footer-down p {
+        font-size: 12px;
+        font-weight: 500;
+    
+    }
+    
+       
+
+}
