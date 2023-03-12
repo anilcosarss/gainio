@@ -1,11 +1,11 @@
 # Gainio  ✨
+ <br>
 
 
 
+#### A simple project that  was I found on the internet months ago (no looking any code!) , this project was completed using HTML , CSS and my purpose in making this project was to experience basic HTML CSS features .  <br>  <br>  <br>
 
-#### A simple project that  was I found on the internet months ago (no looking any code!) , this project was completed using HTML , CSS and my purpose in making this project was to experience basic HTML CSS features .
-
-My  achievements were:
+My achievements were:
 - Creating main layout
 - Flexbox
 - Positions
