@@ -10,7 +10,7 @@ My achievements were:
 - Flexbox
 - Positions
 - Creating navbar and main HTML attributes
-- Aminations
+- Animations
 - Responsive Desing ( There are some problems with media queries because of it was one of the project between my first projects)
 
 
